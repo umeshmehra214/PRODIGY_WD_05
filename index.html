@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link style="color: orange;" rel="icon" type="image/x-icon" href="img/title-img.png"> -->
+    <title>Weather Application</title>
+
+
+    <!-- ==================== Link The CSS File Here ===============  -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- ==================== Adding Box Icons Here ===============  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="img/search.png" alt=""></button>
+        </div>
+        <div class="weather">
+            <img src="" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Jaipur</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="img/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/wind.png">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
